@@ -1,0 +1,53 @@
+{
+  "name": "@mambalabsdev/mcp-threads-profile-posts",
+  "version": "1.0.0",
+  "description": "MCP server for Threads Profile and Posts: public Threads profiles with follower counts and their newest posts.",
+  "type": "module",
+  "bin": {
+    "mcp-threads-profile-posts": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "threads",
+    "threads-profile",
+    "meta-threads",
+    "followers",
+    "social-media",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/threads-profile-posts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-threads-profile-posts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-threads-profile-posts"
+}

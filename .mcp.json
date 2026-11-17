@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-threads-profile-posts": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-threads-profile-posts"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
