@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-threads-profile-posts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Threads Profile and Posts: public Threads profiles with follower counts and their newest posts.",
   "type": "module",
   "bin": {
